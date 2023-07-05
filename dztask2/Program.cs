@@ -10,15 +10,15 @@ int number2 = int.Parse(Console.ReadLine()!);
 
 if (number1 == number2)
 {
-    Console.WriteLine("Ваши числа равны");
+    Console.WriteLine("Ваши числа равны.");
 }
 
 else if (number1 > number2)
 {
-    Console.WriteLine("Первое число больше второго");
+    Console.WriteLine("Первое число больше второго.");
 }
 
 else
 {
-    Console.WriteLine("Второе число больше первого");
+    Console.WriteLine("Второе число больше первого.");
 }
